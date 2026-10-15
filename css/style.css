@@ -33,6 +33,6 @@ form input:focus {
 /* TODO: add a @media (max-width: 700px) query collapsing .card-grid to one column */
 @media (max-width: 700px) {
    .card-grid {
-      columns: 1;
+      columns: 1fr;
    }
 }
