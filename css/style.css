@@ -2,6 +2,37 @@
    See README rubric for the graded checks. Do not use inline styles. */
 
 /* TODO: style #site-header (padding, border-bottom) */
+#site-header {
+   padding: 18px;
+   border-bottom: 5px solid;
+}
+
 /* TODO: style .card (padding, border, gap) and .card-grid (display, gap, 3 columns) */
+.card {
+   padding: 15px;
+   border: 5px solid;
+   gap: 20px;
+}
+
+.card-grid {
+   display: grid;
+   gap: 20px;
+   columns: 3;
+}
+
 /* TODO: style form inputs (padding) and a :focus state */
+form input {
+   padding: 10px;
+}
+
+form input:focus {
+   padding: 10px;
+   outline: 2px solid #007bff;
+}
+
 /* TODO: add a @media (max-width: 700px) query collapsing .card-grid to one column */
+@media (max-width: 700px) {
+   .card-grid {
+      columns: 1;
+   }
+}
