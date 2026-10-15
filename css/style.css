@@ -16,8 +16,8 @@
 
 .card-grid {
    display: grid;
+   grid-template-columns: repeat(3, 1fr);
    gap: 20px;
-   columns: 3;
 }
 
 /* TODO: style form inputs (padding) and a :focus state */
@@ -33,6 +33,6 @@ form input:focus {
 /* TODO: add a @media (max-width: 700px) query collapsing .card-grid to one column */
 @media (max-width: 700px) {
    .card-grid {
-      columns: 1fr;
+      grid-template-columns: 1fr;
    }
 }
